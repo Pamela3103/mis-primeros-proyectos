@@ -1,43 +1,35 @@
-# mis-primeros-proyectos
-Proyectos básicos realizados durante mis primeros ciclos universitarios para practicar lógica, interfaces gráficas y conceptos de computación.
+# 🃏 Juego de Cartas 7 y Medio
 
-# Mis primeros proyectos
+Este proyecto es una versión sencilla del clásico juego de cartas "7 y Medio", implementado en **C++** como parte de mis primeros proyectos prácticos.
 
-Este repositorio contiene algunos de mis primeros proyectos realizados durante mis primeros ciclos universitarios. Cada uno de estos proyectos fue diseñado para practicar conceptos de programación, estructuras de datos, lógica y interfaces gráficas. A continuación, te presento una breve descripción de cada uno de ellos.
+## 🎯 Objetivo del juego
 
-## Proyectos
+El objetivo es acumular cartas hasta alcanzar un valor lo más cercano posible a **7.5** sin pasarse. Gana el jugador que obtenga la mayor cantidad de partidas ganadas.
 
-### 1. Robot Explorador en Marte
-- **Lenguaje**: C++
-- **Descripción**: Simulación de un robot que explora Marte y recolecta muestras. Este proyecto fue diseñado para practicar el uso de la consola y la lógica de programación básica.
-- **Nivel**: Introductorio
+## 📝 Reglas del juego
 
-### 2. Juego de Cartas
-- **Lenguaje**: C++
-- **Descripción**: Un juego de cartas simple realizado por consola. El proyecto incluye reglas básicas y lógica para manejar la interacción entre jugadores.
-- **Nivel**: Básico
+- Las cartas con valores del **10 al 13** valen **0.5** puntos.
+- El resto de cartas conservan su valor numérico.
+- Si el valor acumulado supera **7.5**, el jugador **pierde su turno**.
+- Las cartas y el número de partidas se asignan **aleatoriamente**.
+- El juego está diseñado para **2 jugadores**.
 
-### 3. Simplificador de Funciones Booleanas
-- **Lenguaje**: C++ 
-- **Descripción**: Aplicación de Windows Forms para simplificar funciones booleanas utilizando tablas de verdad y mapas de karnaugh.
-- **Nivel**: Intermedio
+## 💻 Tecnología utilizada
 
-### 4. Organizador de Tareas
-- **Lenguaje**: Python 
-- **Descripción**: Un organizador de tareas básico que permite agregar, eliminar y marcar tareas como completadas.
-- **Nivel**: Básico
+- **Lenguaje:** C++
+- **Entorno de desarrollo:** Visual Studio (proyecto CLR vacío o consola)
 
-### 5. Calculadora Básica
-- **Lenguaje**: Python
-- **Descripción**: Calculadora simple que permite operaciones aritméticas básicas como suma, resta, multiplicación y división.
-- **Nivel**: Básico
+## 🚀 Características
 
-### 6. Conversor de Sistemas de Numeración
-- **Lenguaje**: Python con CustomTkinter
-- **Descripción**: Aplicación gráfica que permite convertir entre binario, decimal, octal y hexadecimal.
-- **Nivel**: Intermedio
+- Generación aleatoria de cartas y rondas.
+- Comparación de resultados para determinar al ganador.
+- Interfaz por consola simple y clara para seguir el desarrollo del juego.
 
-## Cómo ejecutar los proyectos
+## 📁 Cómo ejecutar
 
-Para ejecutar los proyectos, simplemente descarga el código fuente y sigue las instrucciones que se encuentran en los archivos `README.md` dentro de cada carpeta de proyecto.
+1. Clona este repositorio.
+2. Navega a la carpeta `siete-y-medio`.
+3. Abre el archivo `sieteYmedio.sln` con Visual Studio.
+4. Compila y ejecuta el proyecto desde el entorno.
+
 
