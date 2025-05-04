@@ -1,43 +1,42 @@
-# mis-primeros-proyectos
-Proyectos básicos realizados durante mis primeros ciclos universitarios para practicar lógica, interfaces gráficas y conceptos de computación.
+# 🎯 Skeet Game – Proyecto en C++
 
-# Mis primeros proyectos
+Juego inspirado en el evento deportivo Skeet de los Juegos Panamericanos. Desarrollado en C++ utilizando Visual Studio, este proyecto demuestra el uso de estructuras (`struct`), menús por consola y lógica de fases.
 
-Este repositorio contiene algunos de mis primeros proyectos realizados durante mis primeros ciclos universitarios. Cada uno de estos proyectos fue diseñado para practicar conceptos de programación, estructuras de datos, lógica y interfaces gráficas. A continuación, te presento una breve descripción de cada uno de ellos.
+## 🎮 Descripción del juego
 
-## Proyectos
+- El juego comienza con una animación de inauguración.
+- Puedes elegir el país con el que deseas competir.
+- Debes disparar a los obstáculos en movimiento para acumular puntos.
+- El juego cuenta con **3 fases**:
+  - **Fase 1**: Participan 10 países.
+  - **Fase 2**: Clasifican los 5 con mayor puntaje.
+  - **Fase 3**: Clasifican los 3 mejores.
+- A medida que avanzas, la **velocidad de los obstáculos aumenta** y **los disparos disponibles disminuyen**.
+- Al finalizar, se muestra una **animación del podio** con los países ganadores.
 
-### 1. Robot Explorador en Marte
-- **Lenguaje**: C++
-- **Descripción**: Simulación de un robot que explora Marte y recolecta muestras. Este proyecto fue diseñado para practicar el uso de la consola y la lógica de programación básica.
-- **Nivel**: Introductorio
+> 📌 Nota: Por defecto, solo está habilitada la segunda y tercera fase para fines de demostración.  
+> Si deseas jugar las tres fases, **descomenta** el bloque correspondiente en el archivo `.cpp` y la función `IniciarJuego()` en `InterfazJuego.h`.
 
-### 2. Juego de Cartas
-- **Lenguaje**: C++
-- **Descripción**: Un juego de cartas simple realizado por consola. El proyecto incluye reglas básicas y lógica para manejar la interacción entre jugadores.
-- **Nivel**: Básico
+## 🧪 Tecnología utilizada
 
-### 3. Simplificador de Funciones Booleanas
-- **Lenguaje**: C++ 
-- **Descripción**: Aplicación de Windows Forms para simplificar funciones booleanas utilizando tablas de verdad y mapas de karnaugh.
-- **Nivel**: Intermedio
+- Lenguaje: C++
+- Entorno de desarrollo: Visual Studio (proyecto CLR .NET Framework)
 
-### 4. Organizador de Tareas
-- **Lenguaje**: Python 
-- **Descripción**: Un organizador de tareas básico que permite agregar, eliminar y marcar tareas como completadas.
-- **Nivel**: Básico
+## 📁 Cómo ejecutar
 
-### 5. Calculadora Básica
-- **Lenguaje**: Python
-- **Descripción**: Calculadora simple que permite operaciones aritméticas básicas como suma, resta, multiplicación y división.
-- **Nivel**: Básico
+1. Clona este repositorio.
+2. Navega a la carpeta del proyecto.
+3. Abre el archivo `skeet-game.sln` con Visual Studio.
+4. Compila y ejecuta desde el entorno.
 
-### 6. Conversor de Sistemas de Numeración
-- **Lenguaje**: Python con CustomTkinter
-- **Descripción**: Aplicación gráfica que permite convertir entre binario, decimal, octal y hexadecimal.
-- **Nivel**: Intermedio
+## 📜 Menú del juego
 
-## Cómo ejecutar los proyectos
+- Instrucciones
+- Acerca de
+- Puntajes
+- Iniciar Juego
 
-Para ejecutar los proyectos, simplemente descarga el código fuente y sigue las instrucciones que se encuentran en los archivos `README.md` dentro de cada carpeta de proyecto.
+¡Asegúrate de leer las instrucciones antes de empezar para disfrutar completamente del juego!
+
+
 
