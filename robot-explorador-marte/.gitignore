@@ -1,0 +1,8 @@
+/x64/
+**/x64/
+/*.vcxproj.user/
+*.vcxproj.user
+*.VC.db
+*.suo
+.vs/
+*.exe
