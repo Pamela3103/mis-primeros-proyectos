@@ -1,43 +1,42 @@
-# mis-primeros-proyectos
-Proyectos básicos realizados durante mis primeros ciclos universitarios para practicar lógica, interfaces gráficas y conceptos de computación.
+# 🚀 Mis Primeros Proyectos
 
-# Mis primeros proyectos
+Este repositorio reúne varios de mis primeros proyectos desarrollados en C++ como parte de mi aprendizaje en programación. Cada uno tiene su propia carpeta con su respectivo README, instrucciones de uso y archivos fuente.
 
-Este repositorio contiene algunos de mis primeros proyectos realizados durante mis primeros ciclos universitarios. Cada uno de estos proyectos fue diseñado para practicar conceptos de programación, estructuras de datos, lógica y interfaces gráficas. A continuación, te presento una breve descripción de cada uno de ellos.
+## 📚 Lista de Proyectos
 
-## Proyectos
+| Proyecto                             | Descripción breve                                                   |
+|--------------------------------------|----------------------------------------------------------------------|
+| [🎮 Robot Explorador de Marte](robot-explorador-marte) | Juego con movimiento por consola, obstáculos y recolección de muestras en Marte. |
+| [🃏 Juego de Cartas 7 y Medio](siete-y-medio) | Juego de cartas clásico para dos jugadores, lógica de puntajes y turnos.        |
+| [🎯 Skeet Game Panamericano](skeet-game) | Juego basado en eventos deportivos, 3 fases de dificultad y selección de país.  |
+| [🧮 Calculadora Básica](calculadora-basica) | (Por subir) Calculadora simple que realiza operaciones aritméticas básicas.     |
+| [🗂️ Organizador de Tareas](organizador-tareas) | (Por subir) Programa para registrar y visualizar tareas pendientes.             |
+| [🔢 Conversor de Sistemas de Numeración](conversor-sistemas) | (Por subir) Convierte números entre distintos sistemas (decimal, binario, etc.). |
+| [🧠 Simplificador de Funciones Booleanas](simplificador-booleanas) | (Por subir) Proyecto de álgebra booleana que permite ingresar y simplificar funciones. |
 
-### 1. Robot Explorador en Marte
-- **Lenguaje**: C++
-- **Descripción**: Simulación de un robot que explora Marte y recolecta muestras. Este proyecto fue diseñado para practicar el uso de la consola y la lógica de programación básica.
-- **Nivel**: Introductorio
+---
 
-### 2. Juego de Cartas
-- **Lenguaje**: C++
-- **Descripción**: Un juego de cartas simple realizado por consola. El proyecto incluye reglas básicas y lógica para manejar la interacción entre jugadores.
-- **Nivel**: Básico
+## 📁 Estructura del Repositorio
 
-### 3. Simplificador de Funciones Booleanas
-- **Lenguaje**: C++ 
-- **Descripción**: Aplicación de Windows Forms para simplificar funciones booleanas utilizando tablas de verdad y mapas de karnaugh.
-- **Nivel**: Intermedio
+Cada carpeta contiene:
+- Archivos fuente del proyecto (`.cpp`, `.h`)
+- El archivo de solución `.sln` (para abrir con Visual Studio)
+- Un archivo `README.md` propio con instrucciones para ejecutar y explicación del proyecto
 
-### 4. Organizador de Tareas
-- **Lenguaje**: Python 
-- **Descripción**: Un organizador de tareas básico que permite agregar, eliminar y marcar tareas como completadas.
-- **Nivel**: Básico
+---
 
-### 5. Calculadora Básica
-- **Lenguaje**: Python
-- **Descripción**: Calculadora simple que permite operaciones aritméticas básicas como suma, resta, multiplicación y división.
-- **Nivel**: Básico
+## 💻 Requisitos Generales
 
-### 6. Conversor de Sistemas de Numeración
-- **Lenguaje**: Python con CustomTkinter
-- **Descripción**: Aplicación gráfica que permite convertir entre binario, decimal, octal y hexadecimal.
-- **Nivel**: Intermedio
+- Sistema operativo: Windows
+- Entorno de desarrollo: [Visual Studio](https://visualstudio.microsoft.com/)
+- Lenguaje: C++ con configuración de proyecto CLR (.NET Framework) cuando sea necesario
 
-## Cómo ejecutar los proyectos
+---
 
-Para ejecutar los proyectos, simplemente descarga el código fuente y sigue las instrucciones que se encuentran en los archivos `README.md` dentro de cada carpeta de proyecto.
+## 👩‍💻 Autor
+
+Pamela Rivera – Estudiante de Ciencias de la Computación
+
+---
+
 
