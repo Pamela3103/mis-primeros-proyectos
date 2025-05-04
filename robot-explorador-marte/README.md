@@ -1,43 +1,44 @@
-# mis-primeros-proyectos
-Proyectos básicos realizados durante mis primeros ciclos universitarios para practicar lógica, interfaces gráficas y conceptos de computación.
+# 🤖 Robot Explorador Marte
 
-# Mis primeros proyectos
+Este proyecto fue desarrollado durante mi primer ciclo universitario para la actividad GameJam. Consiste en una simulación por consola donde un robot es enviado a Marte con la misión de recolectar muestras de rocas. Todo el movimiento y las animaciones fueron logrados utilizando impresión de caracteres en consola.
 
-Este repositorio contiene algunos de mis primeros proyectos realizados durante mis primeros ciclos universitarios. Cada uno de estos proyectos fue diseñado para practicar conceptos de programación, estructuras de datos, lógica y interfaces gráficas. A continuación, te presento una breve descripción de cada uno de ellos.
+## 🎮 Características
 
-## Proyectos
+- Movimiento simulado por consola (impresión de caracteres).
+- Desplazamiento del robot mediante las teclas direccionales.
+- Recolección de muestras visualmente representadas.
+- Lógica de navegación basada en coordenadas.
+- Menú interactivo con opciones:
+  - Ver Créditos
+  - Instrucciones
+  - Iniciar Misión
+- Animación de viaje hacia Marte.
+- Minijuego de esquivar meteoritos antes de aterrizar.
+- Misión final: recolectar muestras antes de regresar a la Tierra.
 
-### 1. Robot Explorador en Marte
+## 🧪 Tecnología utilizada
+
 - **Lenguaje**: C++
-- **Descripción**: Simulación de un robot que explora Marte y recolecta muestras. Este proyecto fue diseñado para practicar el uso de la consola y la lógica de programación básica.
-- **Nivel**: Introductorio
+- **Entorno de desarrollo**: Visual Studio
+- **Tipo de proyecto**: Proyecto vacío CLR (.NET Framework), utilizando `using namespace System;` para acceder a funcionalidades de .NET desde C++
 
-### 2. Juego de Cartas
-- **Lenguaje**: C++
-- **Descripción**: Un juego de cartas simple realizado por consola. El proyecto incluye reglas básicas y lógica para manejar la interacción entre jugadores.
-- **Nivel**: Básico
+## 🕹️ Cómo jugar
 
-### 3. Simplificador de Funciones Booleanas
-- **Lenguaje**: C++ 
-- **Descripción**: Aplicación de Windows Forms para simplificar funciones booleanas utilizando tablas de verdad y mapas de karnaugh.
-- **Nivel**: Intermedio
+- Usa **las teclas direccionales** para mover al robot:
+  - Durante la lluvia de meteoritos: esquiva los obstáculos.
+  - En Marte: recolecta las muestras de rocas moviéndote por el terreno.
+- Lee las **instrucciones** desde el menú principal antes de iniciar la misión.
+- No necesitas utilizar el mouse ni otras teclas fuera de las direccionales.
 
-### 4. Organizador de Tareas
-- **Lenguaje**: Python 
-- **Descripción**: Un organizador de tareas básico que permite agregar, eliminar y marcar tareas como completadas.
-- **Nivel**: Básico
+## 🚧 Estado actual
 
-### 5. Calculadora Básica
-- **Lenguaje**: Python
-- **Descripción**: Calculadora simple que permite operaciones aritméticas básicas como suma, resta, multiplicación y división.
-- **Nivel**: Básico
+Versión inicial. Proyecto funcional desde consola. Pendiente de mejoras visuales y optimización.
 
-### 6. Conversor de Sistemas de Numeración
-- **Lenguaje**: Python con CustomTkinter
-- **Descripción**: Aplicación gráfica que permite convertir entre binario, decimal, octal y hexadecimal.
-- **Nivel**: Intermedio
+## 📁 Cómo ejecutar
 
-## Cómo ejecutar los proyectos
+1. Clona este repositorio.
+2. Navega a la carpeta `robot-explorador-marte`.
+3. Abre el archivo `robot-explorador-marte.sln` con Visual Studio.
+4. Compila y ejecuta el proyecto desde el entorno.
 
-Para ejecutar los proyectos, simplemente descarga el código fuente y sigue las instrucciones que se encuentran en los archivos `README.md` dentro de cada carpeta de proyecto.
 
